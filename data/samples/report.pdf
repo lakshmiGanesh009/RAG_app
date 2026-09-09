@@ -1,0 +1,46 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 850 >>
+stream
+BT /F2 11 Tf 1 0 0 1 72 750 Tm (Internal document - do not distribute) Tj ET
+BT /F1 20 Tf 1 0 0 1 72 720 Tm (Quarterly Platform Report) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 690 Tm (Prepared by the Infrastructure team, March 2026.) Tj ET
+BT /F1 14 Tf 1 0 0 1 72 650 Tm (1. Availability) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 628 Tm (The service recorded 99.97% uptime across the quarter.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 612 Tm (Two incidents were logged, both resolved inside an hour.) Tj ET
+BT /F1 14 Tf 1 0 0 1 72 570 Tm (2. Cost) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 548 Tm (Total infrastructure spend was 42,180 US dollars.) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 532 Tm (The largest single line item was object storage.) Tj ET
+BT /F1 14 Tf 1 0 0 1 72 490 Tm (3. Next quarter) Tj ET
+BT /F2 11 Tf 1 0 0 1 72 468 Tm (The team will migrate the search tier to hybrid indexing.) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000326 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1297
+%%EOF
