@@ -79,7 +79,7 @@ Every version below was checked to install on this machine's Python 3.14.
 | Vector store | Chroma | 1.5.9 | Persistent, local, minimal setup. |
 | LLM client | `openai` SDK | latest | One code path serves Ollama, LM Studio, vLLM, OpenAI, and OpenRouter. |
 | Config | pydantic-settings | latest | Typed settings with validation at startup. |
-| CLI | Typer | 0.27.2 | |
+| CLI | Typer | 0.26.8 | Held below 0.27 because docling requires `typer<0.27.0`. |
 | API | FastAPI + Uvicorn | 0.141.1 | |
 | Tests | pytest | latest | |
 

@@ -1,0 +1,35 @@
+# RAG_app dependencies — exact pins so every install is reproducible.
+# Install with:  pip install -r requirements.txt
+
+# --- Document parsing (Phase 2) -------------------------------------------
+# Handles PDF, DOCX, HTML and images (with OCR) in one library.
+docling==2.126.0
+
+# --- Embeddings (Phase 4) -------------------------------------------------
+# ONNX-based, so no PyTorch needed for embedding.
+fastembed==0.8.0
+
+# --- Vector store (Phase 4) ----------------------------------------------
+chromadb==1.5.9
+
+# --- Hybrid search (Phase 6) ---------------------------------------------
+bm25s==0.3.11
+flashrank==0.2.10
+
+# --- Answer generation (Phase 5) -----------------------------------------
+# Works with OpenAI, Ollama, LM Studio, vLLM and OpenRouter.
+openai==3.10.0
+
+# --- Configuration (Phase 1) ---------------------------------------------
+pydantic-settings==2.15.0
+
+# --- Command line interface (Phase 7) ------------------------------------
+# Held below 0.27 because docling requires typer<0.27.0.
+typer==0.26.8
+
+# --- HTTP API (Phase 7) --------------------------------------------------
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+
+# --- Testing (Phase 8) ---------------------------------------------------
+pytest==9.1.1

@@ -1,0 +1,11 @@
+# Virtual environment
+.venv/
+
+# Generated vector store — rebuilt by re-ingesting documents
+data/vector_store/
+
+# Local secrets and settings — copy .env.example to .env instead
+.env
+
+# Python bytecode cache
+__pycache__/
